@@ -20,7 +20,12 @@ import java.awt.event.WindowEvent;
 public class SpectrumAnalyzer {
 
 	/**
-	 * An application using JFreeChart that visualizes the maximum and current signal strengths 
+	 * An application using JFreeChart that visualizes the maximum and current signal strengths.
+	 * 
+ 	 * It is designed for a custom built 2.4GHz radio spectrum analyzer built with an Atmega328 Microcontroller and CYWM6935 radio module.
+ 	 * The Arduino MCU can be programmed using the CYWM6935 module, found at https://github.com/wa5znu/CYWM6935/
+ 	 * 
+ 	 * For more information also see http://nurdspace.nl/Arduino_Radio_Spectrum_Analyzer
 	 */
 	
 	private JFreeChart chart;
