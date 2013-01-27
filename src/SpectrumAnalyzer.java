@@ -1,5 +1,4 @@
 
-
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;
 import org.jfree.chart.JFreeChart;
@@ -9,6 +8,8 @@ import org.jfree.chart.plot.XYPlot;
 import org.jfree.data.xy.IntervalXYDataset;
 import org.jfree.data.xy.XYSeries;
 import org.jfree.data.xy.XYSeriesCollection;
+
+import arsa.SerialReader;
 
 import javax.swing.*;
 

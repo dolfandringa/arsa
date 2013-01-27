@@ -1,4 +1,7 @@
+package arsa;
 
+
+import SpectrumAnalyzer;
 
 import java.io.BufferedReader;
 import java.io.IOException;
