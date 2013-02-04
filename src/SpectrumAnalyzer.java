@@ -105,18 +105,15 @@ public class SpectrumAnalyzer {
 	//private 
 	public void setMaxFrequencySignal(Double freq, Double strength){
 		XYSeries max_series=dataset.getSeries(1);
-		System.out.println("Setting max for frequency "+freq+" to "+strength+"%");
 		setValue(freq,strength,max_series);
 		
 	}
 	public void setAvgFrequencySignal(Double freq, Double strength){
 		XYSeries avg_series=dataset.getSeries(0);
-		System.out.println("Setting average for frequency "+freq+" to "+strength+"%");
 		setValue(freq,strength,avg_series);
 	}
 	private void setValue(Double freq, Double strength, XYSeries series){
 		Integer ind=series.indexOf(freq);
-		System.out.println("index for "+freq+" "+ind);
 		if(ind<0){
 			series.add(freq,strength);
 		}

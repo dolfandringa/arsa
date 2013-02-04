@@ -79,7 +79,6 @@ public class SerialReader implements Runnable{
 		}
 		String data2=data.replaceAll("[^\\d\\s]","");
 		if(data!=data2){
-			System.out.println("Replaced non integer and whitespace characters in: "+data);
 			data=data2;
 		}
 		System.out.println(data);
